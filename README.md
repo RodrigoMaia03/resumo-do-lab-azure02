@@ -2,7 +2,7 @@
 
 O processo de criação de uma máquina virtual do Azure se dá por algumas etapas. Inicialmente, Acessando o ambiente na aba _Todos os Serviços_, conseguimos acessar o ambiente de recursos de computação e, consequentemente, visualizar o ambiente de criação de máquinas virtuais. São apresentadas algumas informações no ambiente, as quais estão atreladas somente ao escopo de máquinas virtuais. Nesse resumo, iremos nos ater somente ao procedimento de criação de uma _Virtual Machine_ (VM).
 
-![Painel inicial do recurso de máquinas virtuais do Microsoft Azure.](https://github.com/RodrigoMaia03/resumo-do-lab-azure02/tree/main/Screenshots/print2.png)
+![Painel inicial do recurso de máquinas virtuais do Microsoft Azure.](Screenshots/print2.png)
 
 Para iniciar o procedimento, basta clicar no botão _Criar_ e selecionar a opção desejada. Nesse resumo consta a explicação referente a opção _**Máquina virtual do Azure**_. O ambiente redirecionará o usuário para uma nova tela. Nesse momento o processo de configuração da VM se inicia e a interface nos apresenta uma série de configurações básicas para o funcionamento da máquina. Ao todo, o procedimento de criação de uma máquina virtual segue a seguinte sequenciação de etapas: **Básico → Discos → Redes → Gerenciamente → Monitoramento → Avançado → Marcas → Revisar + Criar.** A seguir, temos um resumo do que é configurado em cada uma dessas etapas.
 
@@ -29,3 +29,8 @@ Marcas são pares de nome/valor que permitem classificar recursos e exibir fatur
 
 ## 8. Revisar + criar
 Esse é o estágio final do procedimento de configuração de uma VM, no qual será feito uma varredura nas configurações realizadas nas etapas anteriores e nos apresentar uma visão geral a respeito. Além disso, aqui também é informado qual será o custo para operação do serviço e os termos legais para confirmação do processo de criação da máquina virtual.
+
+### Informações Adicionais
+O ambiente de configuração também pode nos fornecer ajuda para realizar o procedimento de configuração de máquinas, tanto nos explicando de maneira mais detalhada como funciona cada configuração de maneira específica, bem como no procedimento geral de configuração fornecendo uma espécie de _template_ de configuração, como podemos verificar na imagem abaixo.
+
+![Ajuda na criação da máquina virtual.](Screenshots/print1.png)
